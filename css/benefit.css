@@ -1,0 +1,43 @@
+.simple{
+    width: 13%;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 600px) 
+{
+    .simple
+    {
+        width: 30%;
+  margin-top: 1rem;
+    }
+}
+
+.text{
+    margin-left: 5rem;
+    margin-top: -3rem;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .text{
+        width: 18rem;
+    }
+}
+.grade{
+        background-image: linear-gradient(to right, rgb(11, 11, 134),rgb(90, 223, 90));
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .grade {
+        width: 25rem;
+        margin-left: 0rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .col-6
+  {
+    max-width: 58%;
+    flex: 0 0 50%;
+  }
+
+  }
+  
