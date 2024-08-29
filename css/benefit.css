@@ -12,19 +12,21 @@
 }
 
 .text{
-    margin-left: 5rem;
-    margin-top: -3rem;
+  margin-left: 6rem;
+  margin-top: -3rem;
     color: #fff;
 }
 @media only screen and (max-width: 600px) {
     .text{
-        width: 18rem;
+        width: 14rem;
+        margin-left: 8rem;
+  margin-top: -6rem;
+  color: #fff;
     }
 }
 .grade{
         background-image: linear-gradient(to right, rgb(11, 11, 134),rgb(90, 223, 90));
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+
 }
 @media only screen and (max-width: 600px) {
     .grade {
@@ -46,4 +48,17 @@
     padding-right: 15px;
     padding-left: 15px;
     margin-right: 0px;
+  }
+  .heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+  }
+  .one{
+    padding: 20px;
   }
