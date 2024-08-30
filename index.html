@@ -14,6 +14,10 @@
 
   <title>OFS</title>
 
+  <!-- popup form -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  
+
   <!-- slider stylesheet -->
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -37,8 +41,8 @@
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+      <div class="container-fluid pr-0">
+        <nav class="navbar navbar-expand-lg custom_nav-container py-0">
           <a class="navbar-brand" href="index.html">
             <span>
               OrBiT
@@ -69,11 +73,11 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#"> ContactUs</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item bg-success" style="border-radius: 0px 0px 0px 35px;">
                   <a class="nav-link" href="#"> Login</a>
                 </li>
               </ul>
-              <div class="user_option">
+              <div class="user_option bg-success" style="padding: 19.5px;">
                 <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                   <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
                 </form>
@@ -83,6 +87,18 @@
         </nav>
       </div>
     </header>
+
+    <!-- <div>
+      <ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Sign Up</a>
+        </li>
+      </ul>
+
+    </div> -->
     <!-- end header section -->
     <!-- slider section -->
     <section class=" slider_section position-relative">
@@ -252,12 +268,29 @@
   </div>
 
 
+<!-- <script>
+  $('.button_popup').on('click', function(){
+  $('.wrap, .button_popup').toggleClass('active');
+  
+  return false;
+});
+</script> -->
 
 
-  <button class="contact-us-button" onclick="openForm()">Contact us</button>
 
-  <div class="form-popup" id="myForm">
-    <form action="/action_page.php" class="form-container">
+<!-- <div class='wrap'>
+  <div class='content'>
+    <h2>Well Hello!</h2>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+  </div>
+</div>
+<a class='button_popup glyphicon glyphicon-plus' href='#'></a> -->
+
+  <button class="contact-us-button p-0" onclick="openForm()"><img src="images/dollar.png" class="img-fluid" alt="doller.png"></button>
+ 
+  <div class="form-popup " id="myForm">
+    <form action="/action_page.php" class="form-container ">
       <h1>Contact Us</h1>
 
       <label for="Name"><b>Name</b></label>
