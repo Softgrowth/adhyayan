@@ -50,7 +50,7 @@
                   <a class="nav-link" href="how.php"> Services </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="sip_calculator.php">
                     <span>SIP Calculator</span>
                   </a>
                 </li>
