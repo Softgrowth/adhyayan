@@ -33,7 +33,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <link rel="stylesheet" type="text/css" href="css\new.css">
+  <link rel="stylesheet" type="text/css" href="css\neww.css">
   <link rel="stylesheet" type="text/css" href="css\benefit.css">
 </head>
 
@@ -268,13 +268,6 @@
   </div>
 
 
-<!-- <script>
-  $('.button_popup').on('click', function(){
-  $('.wrap, .button_popup').toggleClass('active');
-  
-  return false;
-});
-</script> -->
 
 
 
@@ -287,9 +280,9 @@
 </div>
 <a class='button_popup glyphicon glyphicon-plus' href='#'></a> -->
 
-  <button class="contact-us-button p-0" onclick="openForm()"><img src="images/dollar.png" class="img-fluid" alt="doller.png"></button>
+  <!-- <button class="contact-us-button p-0" onclick="openForm()"><img src="images/dollar.png" class="img-fluid" alt="doller.png"></button> -->
  
-  <div class="form-popup " id="myForm">
+  <!-- <div class="form-popup " id="myForm">
     <form action="/action_page.php" class="form-container ">
       <h1>Contact Us</h1>
 
@@ -308,8 +301,8 @@
       <button type="submit" class="btn sub">Submit</button>
       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
     </form>
-  </div>
-
+  </div> -->
+<!-- 
   <script>
 
     function openForm() {
@@ -319,9 +312,32 @@
     function closeForm() {
       document.getElementById("myForm").style.display = "none";
     }
-  </script>
+  </script> -->
 
 
+<!-- new form -->
+
+<div class='wrap'>
+  <div class='content'>
+   
+    <form action="/action_page.php" class="form-container ">
+      <h1>Contact Us</h1>
+
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Name" name="name" required>
+
+      <label for="Name"><b>Email</b></label>
+      <input type="text" placeholder="E-mail" name="name" required>
+
+      <label for="Name"><b>Subject</b></label>
+      <input type="text" placeholder="Message" name="name" required>
+
+      <button type="submit" class="btn sub">Submit</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+</div>
+<a class='button button_pop glyphicon glyphicon-plus' href='#'></a>
 
 
 
@@ -814,6 +830,16 @@
       });
     </script>
     <!-- end owl carousel script -->
+
+
+    <script>
+      $('.button_pop').on('click', function(){
+  $('.wrap, .button_pop').toggleClass('active');
+  
+  return false;
+});
+//# sourceURL=pen.js
+    </script>
 </body>
 
 </html>
