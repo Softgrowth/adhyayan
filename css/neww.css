@@ -73,8 +73,8 @@ a.button {
   font-size: 24px;
   display: block;
   position: fixed;
-  left: 90%;
-  bottom: 20px;
+  left: 96%;
+  bottom: 6px;
   top: auto;
   margin-left: -25px;
   transition: transform 0.25s;
