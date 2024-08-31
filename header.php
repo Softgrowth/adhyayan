@@ -55,7 +55,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"> ContactUs</a>
+                  <a class="nav-link" href="contact.php"> ContactUs</a>
                 </li>
                 <li class="nav-item bg-success" style="border-radius: 0px 0px 0px 35px;">
                   <a class="nav-link" href="#"> Login</a>
@@ -73,12 +73,48 @@
     </header>
     </div>
 
+<!-- new form -->
+
+<div class="container">
+<div class='wrap'>
+  <div class='content'>
+   
+    <form action="/action_page.php" class="form-container ">
+      <h1>Contact Us</h1>
+
+      <label for="Name"><b>Name</b></label>
+      <input type="text" placeholder="Name" name="name" required>
+
+      <label for="Name"><b>Email</b></label>
+      <input type="text" placeholder="E-mail" name="name" required>
+
+      <label for="Name"><b>Subject</b></label>
+      <input type="text" placeholder="Message" name="name" required>
+
+      <button type="submit" class="btn sub">Submit</button>
+      <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+    </form>
+  </div>
+</div>
+<a class='p-0 button button_pop' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
+</div>
+
 
 
     
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+
+
+<script>
+      $('.button_pop').on('click', function(){
+  $('.wrap, .button_pop').toggleClass('active');
+  
+  return true;
+});
+
     </script>
 </body>
 </html>

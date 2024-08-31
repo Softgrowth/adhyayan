@@ -223,30 +223,6 @@
 
 
 
-<!-- new form -->
-
-<div class='wrap'>
-  <div class='content'>
-   
-    <form action="/action_page.php" class="form-container ">
-      <h1>Contact Us</h1>
-
-      <label for="Name"><b>Name</b></label>
-      <input type="text" placeholder="Name" name="name" required>
-
-      <label for="Name"><b>Email</b></label>
-      <input type="text" placeholder="E-mail" name="name" required>
-
-      <label for="Name"><b>Subject</b></label>
-      <input type="text" placeholder="Message" name="name" required>
-
-      <button type="submit" class="btn sub">Submit</button>
-      <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
-    </form>
-  </div>
-</div>
-<a class='p-0 button button_pop' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
-
 
 
 
@@ -616,14 +592,7 @@
     <!-- end owl carousel script -->
 
 
-    <script>
-      $('.button_pop').on('click', function(){
-  $('.wrap, .button_pop').toggleClass('active');
-  
-  return false;
-});
-//# sourceURL=pen.js
-    </script>
+   
 </body>
 
 </html>
