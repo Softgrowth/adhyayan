@@ -38,6 +38,27 @@
   <link rel="stylesheet" type="text/css" href="css\benefit.css">
 </head>
 
+
+<style>
+  h2.inner_text::after{
+    content: "";
+  position: absolute;
+  left: -10px;
+  bottom: 0;
+  width: 2.2rem;
+  height: 3rem;
+  background: #00aeef;
+  -ms-transform: skew(-46deg);
+  transform: skew(-46deg);
+  z-index: -1;
+  opacity: .3;
+  top: 0;
+  }
+
+  h2.inner_text{
+    letter-spacing:10px;
+  }
+</style>
 <body>
   <div class="hero_area">
     
@@ -229,7 +250,7 @@
   <!-- how section -->
   <section class="how_section layout_padding">
     <div class="heading_container">
-      <h2>
+      <h2 class="inner_text">
         How It works ?
       </h2>
     </div>
@@ -305,7 +326,7 @@
   <!-- BENEFITS SECTION -->
   <div class="container-fluid">
     <div class="heading_container">
-      <h2>
+      <h2 class="inner_text">
         Benefits
       </h2>
     </div>
@@ -398,7 +419,7 @@
     <section class="about_section layout_padding-bottom">
       <div class="container">
         <div class="heading_container">
-          <h2>
+          <h2 class="inner_text mt-5">
             About OFS
           </h2>
         </div>
@@ -470,8 +491,8 @@
 
     <section class="auto_section layout_padding">
       <div class="container">
-        <div class="heading_container">
-          <h2>
+        <div class="heading_container mb-5">
+          <h2 class="inner_text">
          Our Services
           </h2>
         </div>
@@ -494,6 +515,138 @@
             </div>
           </div>
         </div> -->
+
+        <div class="row justify-content-center">
+
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(97, 186, 242,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+          Mutual Funds
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/mutual.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(180, 183, 255,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+         Financial Services (Investment Planning, Advising, Protecting)
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/finance.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(255, 197, 139,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+          PMS (Portfolio Management Services)
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/portfolio.png" class="img-fluid  m-auto" style="width:38%;" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(255, 213, 55,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+         NPS (National Pension System)
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/pention.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(255, 149, 161,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+         Other Financial Solutions
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/solution.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+
+
+        </div>
+
       </div>
     </section>
     <!-- end auto section -->
