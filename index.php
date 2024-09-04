@@ -38,6 +38,27 @@
   <link rel="stylesheet" type="text/css" href="css\benefit.css">
 </head>
 
+
+<style>
+  h2.inner_text::after{
+    content: "";
+  position: absolute;
+  left: -10px;
+  bottom: 0;
+  width: 2.2rem;
+  height: 3rem;
+  background: #00aeef;
+  -ms-transform: skew(-46deg);
+  transform: skew(-46deg);
+  z-index: -1;
+  opacity: .3;
+  top: 0;
+  }
+
+  h2.inner_text{
+    letter-spacing:10px;
+  }
+</style>
 <body>
   <div class="hero_area">
     
@@ -223,37 +244,13 @@
 
 
 
-<!-- new form -->
-
-<div class='wrap'>
-  <div class='content'>
-   
-    <form action="/action_page.php" class="form-container ">
-      <h1>Contact Us</h1>
-
-      <label for="Name"><b>Name</b></label>
-      <input type="text" placeholder="Name" name="name" required>
-
-      <label for="Name"><b>Email</b></label>
-      <input type="text" placeholder="E-mail" name="name" required>
-
-      <label for="Name"><b>Subject</b></label>
-      <input type="text" placeholder="Message" name="name" required>
-
-      <button type="submit" class="btn sub">Submit</button>
-      <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
-    </form>
-  </div>
-</div>
-<a class='p-0 button button_pop' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
-
 
 
 
   <!-- how section -->
   <section class="how_section layout_padding">
     <div class="heading_container">
-      <h2>
+      <h2 class="inner_text">
         How It works ?
       </h2>
     </div>
@@ -329,7 +326,7 @@
   <!-- BENEFITS SECTION -->
   <div class="container-fluid">
     <div class="heading_container">
-      <h2>
+      <h2 class="inner_text">
         Benefits
       </h2>
     </div>
@@ -422,7 +419,7 @@
     <section class="about_section layout_padding-bottom">
       <div class="container">
         <div class="heading_container">
-          <h2>
+          <h2 class="inner_text mt-5">
             About OFS
           </h2>
         </div>
@@ -494,8 +491,8 @@
 
     <section class="auto_section layout_padding">
       <div class="container">
-        <div class="heading_container">
-          <h2>
+        <div class="heading_container mb-5">
+          <h2 class="inner_text">
          Our Services
           </h2>
         </div>
@@ -518,6 +515,138 @@
             </div>
           </div>
         </div> -->
+
+        <div class="row justify-content-center">
+
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(97, 186, 242,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+          Mutual Funds
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/mutual.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(180, 183, 255,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+         Financial Services (Investment Planning, Advising, Protecting)
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/finance.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(255, 197, 139,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+          PMS (Portfolio Management Services)
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/portfolio.png" class="img-fluid  m-auto" style="width:38%;" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(255, 213, 55,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+         NPS (National Pension System)
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/pention.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+         <div class="col-md-4 " style="height:280px;">
+        <div class="card_services mx-5">
+          <div class="card_section" 
+          style="
+          height:200px;
+          background: rgba(255, 149, 161,0.8);
+          position:relative;
+           border-radius:5%;
+           display:flex;
+           justify-content:center;
+           align-items:center;
+          ">
+         Other Financial Solutions
+          </div>
+          <div class="card-image" 
+          style="
+          position:absolute;
+          width:auto;
+          mx-3;
+          bottom:25px;
+          ">
+          <img src="images/solution.png" class="img-fluid w-50 m-auto" alt="">
+          </div>
+        </div>
+        </div>
+
+
+        </div>
+
       </div>
     </section>
     <!-- end auto section -->
@@ -587,131 +716,7 @@
     <!-- end client section -->
 
     <!-- info section -->
-    <section class="info_section layout_padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="info_contact">
-              <div class="info_logo">
-                <a href="index.html">
-                  <span>
-                  OrBiT
-                  </span>
-                </a>
-              </div>
-              <h5>
-                Contact Us
-              </h5>
-              <div>
-                <div class="img-box">
-                  <img src="images/location.png" width="18px" alt="" />
-                </div>
-                <p>
-                  Page when looking at its layou
-                </p>
-              </div>
-              <div>
-                <div class="img-box">
-                  <img src="images/phone.png" width="18px" alt="" />
-                </div>
-                <p>
-                  +01 1234567890
-                </p>
-              </div>
-              <div>
-                <div class="img-box">
-                  <img src="images/envelope.png" width="18px" alt="" />
-                </div>
-                <p>
-                  demo@gmail.com
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="info_info">
-              <h5>
-                Invest Money
-              </h5>
-              <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                alteration
-                in some form, by injected humour,
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="info_links">
-              <h5>
-                Useful Links
-              </h5>
-              <ul>
-                <li>
-                  <a href="">
-                    There are many
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    variations of
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    passages of
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    Lorem Ipsum
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    available, but the
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    majority have
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    suffered
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="info_form ">
-              <h5>
-                Newsletter
-              </h5>
-              <form action="">
-                <input type="email" placeholder="Enter your email" />
-                <button>
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- end info_section -->
-
-    <!-- footer section -->
-    <section class="container-fluid footer_section">
-      <p>
-        &copy; 2019 All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </section>
-    <!-- footer section -->
+    <?php require_once "footer.php" ?>
 
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -740,14 +745,7 @@
     <!-- end owl carousel script -->
 
 
-    <script>
-      $('.button_pop').on('click', function(){
-  $('.wrap, .button_pop').toggleClass('active');
-  
-  return false;
-});
-//# sourceURL=pen.js
-    </script>
+   
 </body>
 
 </html>

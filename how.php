@@ -12,28 +12,41 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
+<<<<<<< HEAD
   <title>Crytop</title>
+=======
+  <title>OFS</title>
+>>>>>>> 6cc682e5c11fa7c513c6ecb67dbdc114f7336db7
 
-  <!-- slider stylesheet -->
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<!-- popup form -->
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+<!-- slider stylesheet -->
+<!-- slider stylesheet -->
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+<!-- bootstrap core css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+<!-- fonts style -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet" />
+<!-- responsive style -->
+<link href="css/responsive.css" rel="stylesheet" />
+
+<link rel="stylesheet" type="text/css" href="css\neww.css">
+<link rel="stylesheet" type="text/css" href="css\new.css">
+<link rel="stylesheet" type="text/css" href="css\benefit.css">
+
 </head>
 
 <body>
   <div class="hero_area">
 
-  
+
   <?php require_once "header.php"; ?>
     
     <!-- end header section -->
@@ -161,130 +174,8 @@
   </section>
   <!-- end how section -->
 
-  <!-- info section -->
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="info_contact">
-            <div class="info_logo">
-              <a href="index.html">
-                <span>
-                  Cryptop
-                </span>
-              </a>
-            </div>
-            <h5>
-              Contact Us
-            </h5>
-            <div>
-              <div class="img-box">
-                <img src="images/location.png" width="18px" alt="" />
-              </div>
-              <p>
-                Page when looking at its layou
-              </p>
-            </div>
-            <div>
-              <div class="img-box">
-                <img src="images/phone.png" width="18px" alt="" />
-              </div>
-              <p>
-                +01 1234567890
-              </p>
-            </div>
-            <div>
-              <div class="img-box">
-                <img src="images/envelope.png" width="18px" alt="" />
-              </div>
-              <p>
-                demo@gmail.com
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_info">
-            <h5>
-              Invest Money
-            </h5>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour,
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="info_links">
-            <h5>
-              Useful Links
-            </h5>
-            <ul>
-              <li>
-                <a href="">
-                  There are many
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  variations of
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  passages of
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  Lorem Ipsum
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  available, but the
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  majority have
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  suffered
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_form ">
-            <h5>
-              Newsletter
-            </h5>
-            <form action="">
-              <input type="email" placeholder="Enter your email" />
-              <button>
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end info_section -->
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
+    <!-- info section -->
+    <?php require_once "footer.php" ?>
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
