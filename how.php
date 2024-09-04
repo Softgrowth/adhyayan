@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Cryptop</title>
+  <title>Crytop</title>
 
   <!-- slider stylesheet -->
   <!-- slider stylesheet -->
