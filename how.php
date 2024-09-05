@@ -12,11 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-<<<<<<< HEAD
   <title>Crytop</title>
-=======
-  <title>OFS</title>
->>>>>>> 6cc682e5c11fa7c513c6ecb67dbdc114f7336db7
 
 <!-- popup form -->
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
