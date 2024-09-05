@@ -101,7 +101,7 @@
                         </h2>
                         <div class="">
                           <a href="">
-                          Start Here
+                          Get Started
                           </a>
                         </div>
                       </div>
