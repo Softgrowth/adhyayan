@@ -191,7 +191,7 @@
                         </h2>
                         <div class="">
                           <a href="">
-                            Get Started
+                          Get Started
                           </a>
                         </div>
                       </div>
