@@ -13,14 +13,14 @@
 
 .text{
   margin-left: 6rem;
-  margin-top: -3rem;
+  margin-top: -5rem;
     color: #fff;
 }
 @media only screen and (max-width: 600px) {
     .text{
-        width: 14rem;
+        /* width: 14rem; */
         margin-left: 8rem;
-  margin-top: -6rem;
+  /* margin-top: -6rem; */
   color: #fff;
     }
 }
@@ -30,7 +30,7 @@
 }
 @media only screen and (max-width: 600px) {
     .grade {
-        width: 25rem;
+        /* width: 25rem; */
         margin-left: 0rem;
     }
   }

@@ -24,24 +24,26 @@
     <!-- header section strats -->
 
     <div class="container-fluid m-0 p-0">
-    <header class="header_section">
+    <header class="header_section ">
       <div class="container-fluid pr-0">
-        <nav class="navbar navbar-expand-lg custom_nav-container py-0">
-          <a class="navbar-brand" href="index.html">
+        <nav class="navbar navbar-expand-lg custom_nav-container py-0 " >
+          <a class="navbar-brand p-0" style="width:154px" href="index.php">
             <span>
-              OrBiT
+             <img src="images/New_Logo-logo-removebg-preview.png" class="w-75" alt="" srcset="">
             </span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-dark"></span>
+           
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+              
+              <ul class="navbar-nav ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.php">Home </a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="about.php"> About </a>
@@ -57,14 +59,15 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contact.php"> ContactUs</a>
                 </li>
-                <li class="nav-item bg-success" style="border-radius: 0px 0px 0px 35px;">
+                <li class="nav-item back-green" style="border-radius: 0px 0px 0px 35px;">
                   <a class="nav-link" href="#"> Login</a>
                 </li>
               </ul>
-              <div class="user_option bg-success" style="padding: 19.5px;">
-                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
+              <div class="user_option back-green" style="padding: 27px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+</svg>
               </div>
             </div>
           </div>
@@ -72,7 +75,23 @@
       </div>
     </header>
     </div>
+<script>
+  "use strict";
 
+let navlist = document.querySelectorAll('.nav-item');
+
+for (let i = 0; i < navlist.length; i++) {
+	navlist[i].addEventListener('click', function() {
+		for (let x = 0; x < navlist.length; x++) {
+			if (navlist[x] == this) {
+				navlist[x].classList.add('active');
+			} else {
+				navlist[x].classList.remove('active');
+			}
+		}
+	});
+}
+</script>
 <!-- new form -->
 
 <div class="container">

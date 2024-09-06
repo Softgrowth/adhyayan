@@ -50,8 +50,8 @@
   <section class="about_section layout_padding">
     <div class="container">
       <div class="heading_container">
-        <h2>
-          About Cryptop
+        <h2 class="inner_text">
+          About OFS
         </h2>
       </div>
       <div class="box">

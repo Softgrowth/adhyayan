@@ -43,7 +43,7 @@
     <div class="container-fluid">
     <section class="how_section layout_padding">
     <div class="heading_container">
-      <h2>
+      <h2 class="inner_text">
         SIP Calculator 
       </h2>
     </div>

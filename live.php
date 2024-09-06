@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+<main>
+		<center>
+			<div class="tradingview-widget-container">
+				<div class="tradingview-widget-container__widget"></div>
+				<script type="text/javascript"
+					src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+						{
+							"symbols": [
+								{
+									"proName": "FOREXCOM:SPXUSD",
+									"title": "S&P 500"
+								},
+								{
+									"proName": "FOREXCOM:NSXUSD",
+									"title": "Nasdaq 100"
+								},
+								{
+									"description": "NIFTY 50",
+									"proName": "NSE:NIFTY"
+								},
+								{
+									"description": "SENSEX",
+									"proName": "BSE:SENSEX"
+								},
+								{
+									"description": "NIFTY BANK",
+									"proName": "NSE:BANKNIFTY"
+								},
+								{
+									"description": "DOW JONES",
+									"proName": "DJCFD:DJI"
+								},
+								{
+									"description": "ATX",
+									"proName": "INDEX:ATX"
+								},
+								{
+									"description": "BOSVESPA",
+									"proName": "BMFBOVESPA:IBOV"
+								},
+								{
+									"description": "DAX",
+									"proName": "XETR:DAX"
+								},
+								{
+									"description": "EURO STOXX 50",
+									"proName": "CURRENCYCOM:EU50"
+								},
+								{
+									"description": "NIKKEI 225",
+									"proName": "TVC:NI225"
+								},
+								{
+									"description": "SMI",
+									"proName": "SIX:SMI"
+								}
+							],
+								"showSymbolLogo": true,
+									"colorTheme": "dark",
+										"isTransparent": false,
+											"displayMode": "adaptive",
+												"locale": "in"
+						}
+					</script>
+			</div>
+			<!--https://data.indianexpress.com/iframes/stockal/popular-stocks-desktop.html // US STOCKS-->
+			<div class="iframefirst">
+				<h2 class="red-text" style="color: black;">NIFTY50 CHART</h2>
+				<iframe frameborder="0" scrolling="no"
+					src="https://tvc4.forexpros.com/init.php?family_prefix=tvc4&pair_ID=17940&interval=60&width=1150&height=650&lang_ID=1&timezone_ID=20"
+					style="background-color: white; border: solid 1px #00B4FF; color: black; padding-top: 8px;"
+					height="565" width="100%"></iframe>
+	</main>
+</div>
+</body>
+</html>

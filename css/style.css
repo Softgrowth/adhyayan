@@ -57,8 +57,10 @@ body {
 
 /*header section*/
 .hero_area {
-  background-image: url(../images/finance-8037839_1280.jpg);
+  /* background-image: url(../images/finance-8037839_1280.jpg); */
   background-size: cover;
+  background: rgb(197,122,247);
+background: linear-gradient(90deg, rgba(197,122,247,1) 0%, rgba(246,109,109,1) 50%, rgba(222,149,46,1) 100%);
 }
 
 .sub_page .hero_area {
@@ -74,7 +76,7 @@ body {
 }
 
 .header_section {
-  background-color: #151618;
+  background-color: #ffffff;
 }
 
 .header_section .container-fluid {
@@ -89,10 +91,32 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
   padding: 15px 0;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
 }
+
+@media only screen and (min-width: 992px) {
+
+  .back-green {
+ 
+  background-color: #28a745 !important;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+.display-image{
+  display: none;
+}
+
+.header_section{
+   padding: 15px;
+}
+
+}
+
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link::after {
   display: none;
@@ -101,8 +125,8 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 1px;
-  background-color: #ffffff;
+  height: 2px;
+  background-color: #000000;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
@@ -169,7 +193,7 @@ a:focus {
   z-index: 3;
 }
 
-.navbar-brand::before {
+/* .navbar-brand::before {
   content: "";
   position: absolute;
   left: -10px;
@@ -178,7 +202,7 @@ a:focus {
   height: 45px;
   background-color: #30ae69;
   z-index: 2;
-}
+} */
 
 .custom_nav-container {
   z-index: 99999;
@@ -831,5 +855,25 @@ section.app_section .img-box img {
   color: #636363;
 }
 
+
+
+h2.inner_text::after{
+  content: "";
+position: absolute;
+left: -10px;
+bottom: 0;
+width: 2.2rem;
+height: 3rem;
+background: #00aeef;
+-ms-transform: skew(-46deg);
+transform: skew(-46deg);
+z-index: -1;
+opacity: .3;
+top: 0;
+}
+
+h2.inner_text{
+  letter-spacing:10px;
+}
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */

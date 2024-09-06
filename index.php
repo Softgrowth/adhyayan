@@ -26,6 +26,11 @@
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
+
+  <!-- bootstrap 4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- bootstrap 4 -->
+
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
   <!-- Custom styles for this template -->
@@ -40,24 +45,7 @@
 
 
 <style>
-  h2.inner_text::after{
-    content: "";
-  position: absolute;
-  left: -10px;
-  bottom: 0;
-  width: 2.2rem;
-  height: 3rem;
-  background: #00aeef;
-  -ms-transform: skew(-46deg);
-  transform: skew(-46deg);
-  z-index: -1;
-  opacity: .3;
-  top: 0;
-  }
-
-  h2.inner_text{
-    letter-spacing:10px;
-  }
+ 
 </style>
 <body>
   <div class="hero_area">
@@ -107,7 +95,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5 display-image">
                     <div class="img-box">
                       <img src="images/mutuall.png" alt="" />
                     </div>
@@ -137,7 +125,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5 display-image">
                     <div class="img-box">
                       <img src="images/finance_slider.png" alt="" />
                     </div>
@@ -167,7 +155,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5 display-image">
                     <div class="img-box">
                       <img src="images/portfolio_slider.png" alt="" />
                     </div>
@@ -184,10 +172,10 @@
                     <div class="detail-box">
                       <div>
                         <h1>
-                          Digital Currency
+                        NPS 
                         </h1>
                         <h2>
-                          The Future of Trading.
+                       (National Pension System)
                         </h2>
                         <div class="">
                           <a href="">
@@ -197,9 +185,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-5">
-                    <div class="img-box">
-                      <img src="images/slider-img.png" alt="" />
+                  <div class="col-md-5 display-image">
+                    <div class="img-box" style="height:300px;">
+                      <img src="images/retirement.png" alt="" class="h-100" />
                     </div>
                   </div>
                 </div>
@@ -214,10 +202,10 @@
                     <div class="detail-box">
                       <div>
                         <h1>
-                          Digital Currency
+                        Other Financial Solutions
                         </h1>
                         <h2>
-                          The Future of Trading.
+                         
                         </h2>
                         <div class="">
                           <a href="">
@@ -227,9 +215,9 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5 display-image">
                     <div class="img-box">
-                      <img src="images/slider-img.png" alt="" />
+                      <img src="images/flat-illustration.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -241,7 +229,77 @@
     </section>
     <!-- end slider section -->
   </div>
+<div class="container-fluid m-0 p-0">
 
+<main>
+		<center>
+			<div class="tradingview-widget-container">
+				<div class="tradingview-widget-container__widget"></div>
+				<script type="text/javascript"
+					src="3" async>
+						{
+							"symbols": [
+								{
+									"proName": "FOREXCOM:SPXUSD",
+									"title": "S&P 500"
+								},
+								{
+									"proName": "FOREXCOM:NSXUSD",
+									"title": "Nasdaq 100"
+								},
+								{
+									"description": "NIFTY 50",
+									"proName": "NSE:NIFTY"
+								},
+								{
+									"description": "SENSEX",
+									"proName": "BSE:SENSEX"
+								},
+								{
+									"description": "NIFTY BANK",
+									"proName": "NSE:BANKNIFTY"
+								},
+								{
+									"description": "DOW JONES",
+									"proName": "DJCFD:DJI"
+								},
+								{
+									"description": "ATX",
+									"proName": "INDEX:ATX"
+								},
+								{
+									"description": "BOSVESPA",
+									"proName": "BMFBOVESPA:IBOV"
+								},
+								{
+									"description": "DAX",
+									"proName": "XETR:DAX"
+								},
+								{
+									"description": "EURO STOXX 50",
+									"proName": "CURRENCYCOM:EU50"
+								},
+								{
+									"description": "NIKKEI 225",
+									"proName": "TVC:NI225"
+								},
+								{
+									"description": "SMI",
+									"proName": "SIX:SMI"
+								}
+							],
+								"showSymbolLogo": true,
+									"colorTheme": "dark",
+										"isTransparent": false,
+											"displayMode": "adaptive",
+												"locale": "in"
+						}
+					</script>
+			</div>
+			<!--https://data.indianexpress.com/iframes/stockal/popular-stocks-desktop.html // US STOCKS-->
+		
+	</main>
+</div>
 
 
 
@@ -612,7 +670,7 @@
           position:absolute;
           width:auto;
           mx-3;
-          bottom:25px;
+          bottom:0px;
           ">
           <img src="images/pention.png" class="img-fluid w-50 m-auto" alt="">
           </div>
