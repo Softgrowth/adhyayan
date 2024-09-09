@@ -66,168 +66,31 @@
     <!-- end header section -->
     <!-- slider section -->
     <section class=" slider_section position-relative">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container-fluid m-0 p-0">
-              <div class="box m-0">
-                <div class="row" style="height:600px;">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <img class="" src="images/MUTUALFUND.png" alt="" style="height:600px">
-                      <div>
-                        <!-- <h1>
-                        Mutual Funds
-                        </h1> -->
-                        <!-- <h2>
-                          The Future of Trading.
-                        </h2> -->
-                        <!-- <div class="">
-                          <a href="">
-                            Get Started
-                          </a>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-5 display-image">
-                    <!-- <div class="img-box">
-                      <img src="images/MUTUALFUND.png" alt="" />
-                    </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="box">
-                <div class="row" style="height:300px;">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <div>
-                        <h1>
-                        Financial Services
-                        </h1>
-                        <h2>
-                        (Investment Planning, Advising, Protecting)
-                        </h2>
-                        <div class="">
-                          <a href="">
-                            Get Started
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-5 display-image">
-                    <div class="img-box">
-                      <img src="images/finance_slider.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="box">
-                <div class="row" style="height:300px;">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <div>
-                        <h1>
-                        PMS
-                        </h1>
-                        <h2>
-                        (Portfolio Management Services)
-                        </h2>
-                        <div class="">
-                          <a href="">
-                            Get Started
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-5 display-image">
-                    <div class="img-box">
-                      <img src="images/portfolio_slider.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="box">
-                <div class="row" style="height:300px;">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <div>
-                        <h1>
-                        NPS 
-                        </h1>
-                        <h2>
-                       (National Pension System)
-                        </h2>
-                        <div class="">
-                          <a href="">
-                          Get Started
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-5 display-image">
-                    <div class="img-box" style="height:300px;">
-                      <img src="images/retirement.png" alt="" class="h-100" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="box">
-                <div class="row" style="height:300px;">
-                  <div class="col-md-7">
-                    <div class="detail-box">
-                      <div>
-                        <h1>
-                        Other Financial Solutions
-                        </h1>
-                        <h2>
-                         
-                        </h2>
-                        <div class="">
-                          <a href="">
-                            Get Started
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-5 display-image">
-                    <div class="img-box">
-                      <img src="images/flat-illustration.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="ImageCarouselCSS" class="carousel slide container-fluid"  data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
+    <li data-target="#ImageCarouselCSS" data-slide-to="1"></li>
+    <li data-target="#ImageCarouselCSS" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/M-fund.png" class="d-block img img-fluid w-100" alt="m_fund">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner-finance.png" class="d-block img img-fluid w-100" alt="finance">
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="">
+    </div>
+  </div>
+</div>
+
     </section>
     <!-- end slider section -->
   </div>
