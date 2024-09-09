@@ -551,7 +551,7 @@
       <div class="container">
         <div class="heading_container mb-5">
           <h2 class="inner_text">
-         Our Services
+            Our Services
           </h2>
         </div>
         <!-- <div class="box">
