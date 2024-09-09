@@ -25,7 +25,8 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
+  <!--  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- bootstrap 4 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -65,6 +66,7 @@
     <!-- end header section -->
     <!-- slider section -->
     <section class=" slider_section position-relative">
+<<<<<<< HEAD
     <div id="ImageCarouselCSS" class="carousel slide container-fluid"  data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
@@ -90,6 +92,170 @@
   </div>
 </div>
 
+=======
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid m-0 p-0">
+              <div class="box m-0">
+                <div class="row" style="height:600px;">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <img class="" src="images/MUTUALFUND.png" alt="" style="height:600px">
+                      <div>
+                        <!-- <h1>
+                        Mutual Funds
+                        </h1> -->
+                        <!-- <h2>
+                          The Future of Trading.
+                        </h2> -->
+                        <!-- <div class="">
+                          <a href="">
+                            Get Started
+                          </a>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 display-image">
+                    <!-- <div class="img-box">
+                      <img src="images/MUTUALFUND.png" alt="" />
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="box">
+                <div class="row" style="height:300px;">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                        Financial Services
+                        </h1>
+                        <h2>
+                        (Investment Planning, Advising, Protecting)
+                        </h2>
+                        <div class="">
+                          <a href="">
+                            Get Started
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 display-image">
+                    <div class="img-box">
+                      <img src="images/finance_slider.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="box">
+                <div class="row" style="height:300px;">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                        PMS
+                        </h1>
+                        <h2>
+                        (Portfolio Management Services)
+                        </h2>
+                        <div class="">
+                          <a href="">
+                            Get Started
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 display-image">
+                    <div class="img-box">
+                      <img src="images/portfolio_slider.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="box">
+                <div class="row" style="height:300px;">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                        NPS 
+                        </h1>
+                        <h2>
+                       (National Pension System)
+                        </h2>
+                        <div class="">
+                          <a href="">
+                          Get Started
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 display-image">
+                    <div class="img-box" style="height:300px;">
+                      <img src="images/retirement.png" alt="" class="h-100" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="box">
+                <div class="row" style="height:300px;">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                        Other Financial Solutions
+                        </h1>
+                        <h2>
+                         
+                        </h2>
+                        <div class="">
+                          <a href="">
+                            Get Started
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 display-image">
+                    <div class="img-box">
+                      <img src="images/flat-illustration.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+>>>>>>> dca031c47e7fb27c94c46be0e696a7aa469d9641
     </section>
     <!-- end slider section -->
   </div>
@@ -97,71 +263,44 @@
 
 <main>
 		<center>
-			<div class="tradingview-widget-container">
-				<div class="tradingview-widget-container__widget"></div>
-				<script type="text/javascript"
-					src="3" async>
-						{
-							"symbols": [
-								{
-									"proName": "FOREXCOM:SPXUSD",
-									"title": "S&P 500"
-								},
-								{
-									"proName": "FOREXCOM:NSXUSD",
-									"title": "Nasdaq 100"
-								},
-								{
-									"description": "NIFTY 50",
-									"proName": "NSE:NIFTY"
-								},
-								{
-									"description": "SENSEX",
-									"proName": "BSE:SENSEX"
-								},
-								{
-									"description": "NIFTY BANK",
-									"proName": "NSE:BANKNIFTY"
-								},
-								{
-									"description": "DOW JONES",
-									"proName": "DJCFD:DJI"
-								},
-								{
-									"description": "ATX",
-									"proName": "INDEX:ATX"
-								},
-								{
-									"description": "BOSVESPA",
-									"proName": "BMFBOVESPA:IBOV"
-								},
-								{
-									"description": "DAX",
-									"proName": "XETR:DAX"
-								},
-								{
-									"description": "EURO STOXX 50",
-									"proName": "CURRENCYCOM:EU50"
-								},
-								{
-									"description": "NIKKEI 225",
-									"proName": "TVC:NI225"
-								},
-								{
-									"description": "SMI",
-									"proName": "SIX:SMI"
-								}
-							],
-								"showSymbolLogo": true,
-									"colorTheme": "dark",
-										"isTransparent": false,
-											"displayMode": "adaptive",
-												"locale": "in"
-						}
-					</script>
-			</div>
-			<!--https://data.indianexpress.com/iframes/stockal/popular-stocks-desktop.html // US STOCKS-->
-		
+			<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "nifty",
+      "proName": "NSEIX:NIFTY1!"
+    },
+    {
+      "description": "tatamotors",
+      "proName": "NSE:TATAMOTORS"
+    },
+    {
+      "description": "hdfc bank",
+      "proName": "NSE:HDFCBANK"
+    },
+    {
+      "description": "SBIN",
+      "proName": "NSE:SBIN"
+    },
+    {
+      "description": "cipla",
+      "proName": "NSE:CIPLA"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "largeChartUrl": "https://in.tradingview.com/markets/india/",
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 	</main>
 </div>
 
@@ -172,12 +311,12 @@
   <!-- how section -->
   <section class="how_section layout_padding">
     <div class="heading_container">
-      <h2 class="inner_text">
+      <h2 class="inner_text " data-aos="fade-up" >
         How It works ?
       </h2>
     </div>
     <div class="how_container">
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <div class="img-box">
 
           <img src="images/traderz.gif" alt="traders" class="image-box">
@@ -193,7 +332,7 @@
           </p>
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <div class="img-box">
           <img src="images/exchange.gif" alt="exchange" class="image-box">
         </div>
@@ -208,7 +347,7 @@
           </p>
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <div class="img-box">
           <img src="images/mining.gif" alt="mining" class="image-box">
         </div>
@@ -222,7 +361,7 @@
           </p>
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <div class="img-box">
           <img src="images/payment.gif" alt="payment" class="image-box">
         </div>
@@ -237,7 +376,7 @@
         </div>
       </div>
     </div>
-    <div class="btn-box">
+    <div class="btn-box" data-aos="flip-down">
       <a href="">
         Read More
       </a>
@@ -248,13 +387,13 @@
   <!-- BENEFITS SECTION -->
   <div class="container-fluid">
     <div class="heading_container">
-      <h2 class="inner_text">
+      <h2 class="inner_text" data-aos="fade-up">
         Benefits
       </h2>
     </div>
   
   <div class="row grade">
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-right">
       <img src="images/Pi7_agile.png" alt="" class="simple">
       <div class="text">
         <h5><b>Simplicity</b></h5>
@@ -262,7 +401,7 @@
       </div>
     </div>
 
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-up">
       <img src="images/Pi7_per._touch-removebg-preview.png" alt="" class="simple">
       <div class="text">
         <h5><b>Personal Touch</b></h5>
@@ -270,7 +409,7 @@
       </div>
     </div>
 
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-left">
       <img src="images/Pi7_barrier__1_-removebg-preview.png" alt="" class="simple">
       <div class="text">
         <h5><b>No Language Barrier</b></h5>
@@ -280,7 +419,7 @@
   </div>
 
 <div class="row grade">
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-right">
         <img src="images/Pi7_quick-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Quick</b></h5>
@@ -288,7 +427,7 @@
       </div>
     </div>
 
-      <div class="col-md-4 one">
+      <div class="col-md-4 one" data-aos="zoom-in-up">
         <img src="images/Pi7_flexible-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Flexibility</b></h5>
@@ -296,7 +435,7 @@
         </div>
       </div>
 
-      <div class=" col-md-4 one">
+      <div class=" col-md-4 one" data-aos="zoom-in-left">
         <img src="images/Pi7_loan-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Loan Available</b></h5>
@@ -307,7 +446,7 @@
   
 
 <div class="row grade">
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-right">
         <img src="images/Pi7_smart-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Smart Factoring</b></h5>
@@ -315,7 +454,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 one">
+      <div class="col-md-4 one" data-aos="zoom-in-up">
         <img src="images/Pi7_convenient-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Convenient</b></h5>
@@ -323,7 +462,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 one">
+      <div class="col-md-4 one" data-aos="zoom-in-left">
         <img src="images/Pi7_referral-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Referral Program</b></h5>
@@ -341,11 +480,11 @@
     <section class="about_section layout_padding-bottom">
       <div class="container">
         <div class="heading_container">
-          <h2 class="inner_text mt-5">
+          <h2 class="inner_text mt-5" data-aos="fade-up">
             About OFS
           </h2>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down-left">
           <div class="img-box">
             <img src="images/about-img.png" alt="">
           </div>
@@ -357,7 +496,7 @@
               eiusmod tempor incididunt ut labore
               et dolore magna aliqua. Ut enim ad minim
             </p>
-            <div class="btn-box">
+            <div class="btn-box" data-aos="flip-down">
               <a href="">
                 Read More
               </a>
@@ -414,7 +553,7 @@
     <section class="auto_section layout_padding">
       <div class="container">
         <div class="heading_container mb-5">
-          <h2 class="inner_text">
+          <h2 class="inner_text" data-aos="fade-up">
             Our Services
           </h2>
         </div>
@@ -440,8 +579,8 @@
 
         <div class="row justify-content-center">
 
-         <div class="col-md-4 " style="height:280px;">
-        <div class="card_services mx-5">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-right">
+        <div class="card_services mx-5"  >
           <div class="card_section" 
           style="
           height:200px;
@@ -465,7 +604,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-up">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -490,7 +629,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-left">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -515,7 +654,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-right">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -540,7 +679,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-left">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -666,8 +805,11 @@
     </script>
     <!-- end owl carousel script -->
 
-
-   
+<!-- animation on scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

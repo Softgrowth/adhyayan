@@ -115,7 +115,25 @@ for (let i = 0; i < navlist.length; i++) {
     </form>
   </div>
 </div>
-<a class='p-0 button button_pop' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
+<button class="button button button_pop">
+<p class="button__text m-0">
+    <span style="--index: 0;">C</span>
+    <span style="--index: 1;">O</span>
+    <span style="--index: 2;">N</span>
+    <span style="--index: 3;">T</span>
+    <span style="--index: 4;">A</span>
+    <span style="--index: 5;">C</span>
+    <span style="--index: 6;">T</span>
+    <span style="--index: 7;"> </span>
+    <span style="--index: 8;">U</span>
+    <span style="--index: 9;">S</span>
+    <span style="--index: 11;"> </span>
+   
+  </p>
+
+<a class='p-0 button__circle' href='#' ><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
+
+</button>
 </div>
 
 
@@ -135,5 +153,8 @@ for (let i = 0; i < navlist.length; i++) {
 });
 
     </script>
+
+
+
 </body>
 </html>
