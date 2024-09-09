@@ -36,6 +36,9 @@
 <link rel="stylesheet" type="text/css" href="css\neww.css">
 <link rel="stylesheet" type="text/css" href="css\new.css">
 <link rel="stylesheet" type="text/css" href="css\benefit.css">
+
+
+
 </head>
 
 <body>
@@ -51,24 +54,36 @@
     <div class="container">
       <div class="heading_container">
         <h2 class="inner_text">
-          About OFS
+          About Us
         </h2>
+       </div>
+        <div>
+         <p> <i>A mutual fund can do for you what you would do for yourself if you had sufficient time, training, and money to diversify, plus the temperament to stand back from your money and make rational decisions.</i> </p>
       </div>
       <div class="box">
         <div class="img-box">
-          <img src="images/about-img.png" alt="">
+          <!-- <img src="images/about-img.png" alt=""> -->
+           <div class="row">
+            <div class="col-md-6"><img src="images/about.png" class="box animate fadeInRight self-image"></div>
+            
+            <div class="col-md-6"></div>
+
+
+
+           </div>
+
         </div>
         <div class="detail-box">
-          <p>
+          <!-- <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim
-          </p>
+          </p> -->
           <div class="btn-box">
-            <a href="">
+            <!-- <a href="">
               Read More
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -105,6 +120,19 @@
     });
   </script>
   <!-- end owl carousel script -->
+
+
+
+  
+                            
+       
+                          
+                        
+                        
+                        
+                        
+                        
+
 </body>
 
 </html>
