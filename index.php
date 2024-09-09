@@ -25,7 +25,8 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
+  <!--  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- bootstrap 4 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -75,12 +76,12 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="container">
-              <div class="box">
-                <div class="row" style="height:300px;">
+            <div class="container-fluid m-0 p-0">
+              <div class="box m-0">
+                <div class="row" style="height:600px;">
                   <div class="col-md-7">
                     <div class="detail-box">
-                      <img src="images/MUTUALFUND.png" alt="">
+                      <img class="" src="images/MUTUALFUND.png" alt="" style="height:600px">
                       <div>
                         <!-- <h1>
                         Mutual Funds
@@ -282,12 +283,12 @@
   <!-- how section -->
   <section class="how_section layout_padding">
     <div class="heading_container">
-      <h2 class="inner_text">
+      <h2 class="inner_text " data-aos="fade-up" >
         How It works ?
       </h2>
     </div>
     <div class="how_container">
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <div class="img-box">
 
           <img src="images/traderz.gif" alt="traders" class="image-box">
@@ -303,7 +304,7 @@
           </p>
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-right">
         <div class="img-box">
           <img src="images/exchange.gif" alt="exchange" class="image-box">
         </div>
@@ -318,7 +319,7 @@
           </p>
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <div class="img-box">
           <img src="images/mining.gif" alt="mining" class="image-box">
         </div>
@@ -332,7 +333,7 @@
           </p>
         </div>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-left">
         <div class="img-box">
           <img src="images/payment.gif" alt="payment" class="image-box">
         </div>
@@ -776,8 +777,11 @@
     </script>
     <!-- end owl carousel script -->
 
-
-   
+<!-- animation on scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
