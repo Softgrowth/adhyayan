@@ -80,25 +80,26 @@
                 <div class="row" style="height:300px;">
                   <div class="col-md-7">
                     <div class="detail-box">
+                      <img src="images/MUTUALFUND.png" alt="">
                       <div>
-                        <h1>
+                        <!-- <h1>
                         Mutual Funds
-                        </h1>
+                        </h1> -->
                         <!-- <h2>
                           The Future of Trading.
                         </h2> -->
-                        <div class="">
+                        <!-- <div class="">
                           <a href="">
                             Get Started
                           </a>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5 display-image">
-                    <div class="img-box">
-                      <img src="images/mutuall.png" alt="" />
-                    </div>
+                    <!-- <div class="img-box">
+                      <img src="images/MUTUALFUND.png" alt="" />
+                    </div> -->
                   </div>
                 </div>
               </div>
