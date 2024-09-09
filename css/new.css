@@ -101,3 +101,50 @@
     background-color: white;
   }
 
+.self-image
+{
+  width: 40rem;
+}
+
+
+.heading-1
+{
+  color:#666666;
+  text-align:left;
+  /* width: 36rem; */
+  margin-top: 3rem;
+}
+/* @media only screen and (max-width: 600px) {
+  .heading-1 {
+    width: 17rem;
+  }
+} */
+
+.heading-2
+{
+  margin-right: 31rem;
+  color:#666666;
+}
+.checkmark
+{
+  
+    width: 2rem;
+    margin-right: 33rem;
+}
+/* @media only screen and (max-width: 600px) {
+  .checkmark {
+    display:;
+  }
+} */
+.heading-3
+{
+  color:#666666;
+  text-align: left;
+  /* width: 36rem; */
+  margin-top: 1rem;
+}
+/* @media only screen and (max-width: 600px) {
+  .heading-3 {
+    width: 17rem;
+  }
+} */
