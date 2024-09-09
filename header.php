@@ -116,7 +116,7 @@ for (let i = 0; i < navlist.length; i++) {
   </div>
 </div>
 <button class="button button button_pop">
-<p class="button__text">
+<p class="button__text m-0">
     <span style="--index: 0;">C</span>
     <span style="--index: 1;">O</span>
     <span style="--index: 2;">N</span>
@@ -131,7 +131,7 @@ for (let i = 0; i < navlist.length; i++) {
    
   </p>
 
-<a class='p-0 button__circle' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
+<a class='p-0 button__circle' href='#' ><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
 
 </button>
 </div>
@@ -160,24 +160,27 @@ for (let i = 0; i < navlist.length; i++) {
 .button {
   cursor: pointer;
   border: none;
-  background: #7808d0;
-  color: #fff;
-  width: 100px;
-  height: 100px;
+  background: #E6C458;
+  color: #000;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   overflow: hidden;
-  position: relative;
+  position: fixed;
   display: grid;
   place-content: center;
   transition:
     background 300ms,
     transform 200ms;
   font-weight: 600;
+  bottom:10px;
+  right:10px;
+  z-index: 1;
 }
 
 .button__text {
   position: absolute;
-  inset: 0;
+  inset: -11px;
   animation: text-rotation 8s linear infinite;
 
   > span {
@@ -189,8 +192,8 @@ for (let i = 0; i < navlist.length; i++) {
 
 .button__circle {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
   background: #fff;
   color: #7808d0;
@@ -208,6 +211,7 @@ for (let i = 0; i < navlist.length; i++) {
 .button:hover {
   background: #000;
   transform: scale(1.05);
+  color: #fff;
 }
 
 .button:hover .button__icon {
