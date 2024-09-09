@@ -82,5 +82,50 @@
 					height="565" width="100%"></iframe>
 	</main>
 </div>
+
+
+
+<div class="container">
+	<script>
+		const https = require('https');
+
+const options = {
+    hostname: 'financialmodelingprep.com',
+    port: 443,
+    path: 'https://financialmodelingprep.com/api/v3/search?query=AA&apikey=7bf74a8dba916bf23d0d3a0a05abf3f6',
+    method: 'GET'
+} 
+
+[
+	{
+		"symbol": "PRAA",
+		"name": "PRA Group, Inc.",
+		"currency": "USD",
+		"stockExchange": "NasdaqGS",
+		"exchangeShortName": "NASDAQ"
+	},
+	{
+		"symbol": "PAAS",
+		"name": "Pan American Silver Corp.",
+		"currency": "USD",
+		"stockExchange": "NasdaqGS",
+		"exchangeShortName": "NASDAQ"
+	}
+]
+
+        
+const req = https.request(options, (res) => {
+    res.on('data', (d) => {
+        process.stdout.write(d)
+    })
+})
+
+req.on('error', (error) => {
+    console.error(error)
+})
+
+req.end()
+	</script> 
+</div>
 </body>
 </html>

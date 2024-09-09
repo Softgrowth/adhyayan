@@ -233,71 +233,44 @@
 
 <main>
 		<center>
-			<div class="tradingview-widget-container">
-				<div class="tradingview-widget-container__widget"></div>
-				<script type="text/javascript"
-					src="3" async>
-						{
-							"symbols": [
-								{
-									"proName": "FOREXCOM:SPXUSD",
-									"title": "S&P 500"
-								},
-								{
-									"proName": "FOREXCOM:NSXUSD",
-									"title": "Nasdaq 100"
-								},
-								{
-									"description": "NIFTY 50",
-									"proName": "NSE:NIFTY"
-								},
-								{
-									"description": "SENSEX",
-									"proName": "BSE:SENSEX"
-								},
-								{
-									"description": "NIFTY BANK",
-									"proName": "NSE:BANKNIFTY"
-								},
-								{
-									"description": "DOW JONES",
-									"proName": "DJCFD:DJI"
-								},
-								{
-									"description": "ATX",
-									"proName": "INDEX:ATX"
-								},
-								{
-									"description": "BOSVESPA",
-									"proName": "BMFBOVESPA:IBOV"
-								},
-								{
-									"description": "DAX",
-									"proName": "XETR:DAX"
-								},
-								{
-									"description": "EURO STOXX 50",
-									"proName": "CURRENCYCOM:EU50"
-								},
-								{
-									"description": "NIKKEI 225",
-									"proName": "TVC:NI225"
-								},
-								{
-									"description": "SMI",
-									"proName": "SIX:SMI"
-								}
-							],
-								"showSymbolLogo": true,
-									"colorTheme": "dark",
-										"isTransparent": false,
-											"displayMode": "adaptive",
-												"locale": "in"
-						}
-					</script>
-			</div>
-			<!--https://data.indianexpress.com/iframes/stockal/popular-stocks-desktop.html // US STOCKS-->
-		
+			<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "nifty",
+      "proName": "NSEIX:NIFTY1!"
+    },
+    {
+      "description": "tatamotors",
+      "proName": "NSE:TATAMOTORS"
+    },
+    {
+      "description": "hdfc bank",
+      "proName": "NSE:HDFCBANK"
+    },
+    {
+      "description": "SBIN",
+      "proName": "NSE:SBIN"
+    },
+    {
+      "description": "cipla",
+      "proName": "NSE:CIPLA"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "largeChartUrl": "https://in.tradingview.com/markets/india/",
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 	</main>
 </div>
 
