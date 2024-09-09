@@ -59,8 +59,9 @@ body {
 .hero_area {
   /* background-image: url(../images/finance-8037839_1280.jpg); */
   background-size: cover;
-  background: rgb(197,122,247);
-background: linear-gradient(90deg, rgba(197,122,247,1) 0%, rgba(246,109,109,1) 50%, rgba(222,149,46,1) 100%);
+  /* background-image: url(/images/MUTUALFUND.png); */
+/* background: #072e85; */
+/* background: linear-gradient(90deg, rgba(197,122,247,1) 0%, rgba(246,109,109,1) 50%, rgba(222,149,46,1) 100%); */
 }
 
 .sub_page .hero_area {
