@@ -66,6 +66,33 @@
     <!-- end header section -->
     <!-- slider section -->
     <section class=" slider_section position-relative">
+<<<<<<< HEAD
+    <div id="ImageCarouselCSS" class="carousel slide container-fluid"  data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
+    <li data-target="#ImageCarouselCSS" data-slide-to="1"></li>
+    <li data-target="#ImageCarouselCSS" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/M-fund.png" class="d-block img img-fluid w-100" alt="m_fund">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banner-finance.png" class="d-block img img-fluid w-100" alt="finance">
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="">
+    </div>
+  </div>
+</div>
+
+=======
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -228,6 +255,7 @@
           </div>
         </div>
       </div>
+>>>>>>> dca031c47e7fb27c94c46be0e696a7aa469d9641
     </section>
     <!-- end slider section -->
   </div>
