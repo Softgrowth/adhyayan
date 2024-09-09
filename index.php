@@ -348,7 +348,7 @@
         </div>
       </div>
     </div>
-    <div class="btn-box">
+    <div class="btn-box" data-aos="flip-down">
       <a href="">
         Read More
       </a>
@@ -359,13 +359,13 @@
   <!-- BENEFITS SECTION -->
   <div class="container-fluid">
     <div class="heading_container">
-      <h2 class="inner_text">
+      <h2 class="inner_text" data-aos="fade-up">
         Benefits
       </h2>
     </div>
   
   <div class="row grade">
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-right">
       <img src="images/Pi7_agile.png" alt="" class="simple">
       <div class="text">
         <h5><b>Simplicity</b></h5>
@@ -373,7 +373,7 @@
       </div>
     </div>
 
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-up">
       <img src="images/Pi7_per._touch-removebg-preview.png" alt="" class="simple">
       <div class="text">
         <h5><b>Personal Touch</b></h5>
@@ -381,7 +381,7 @@
       </div>
     </div>
 
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-left">
       <img src="images/Pi7_barrier__1_-removebg-preview.png" alt="" class="simple">
       <div class="text">
         <h5><b>No Language Barrier</b></h5>
@@ -391,7 +391,7 @@
   </div>
 
 <div class="row grade">
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-right">
         <img src="images/Pi7_quick-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Quick</b></h5>
@@ -399,7 +399,7 @@
       </div>
     </div>
 
-      <div class="col-md-4 one">
+      <div class="col-md-4 one" data-aos="zoom-in-up">
         <img src="images/Pi7_flexible-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Flexibility</b></h5>
@@ -407,7 +407,7 @@
         </div>
       </div>
 
-      <div class=" col-md-4 one">
+      <div class=" col-md-4 one" data-aos="zoom-in-left">
         <img src="images/Pi7_loan-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Loan Available</b></h5>
@@ -418,7 +418,7 @@
   
 
 <div class="row grade">
-    <div class="col-md-4 one">
+    <div class="col-md-4 one" data-aos="zoom-in-right">
         <img src="images/Pi7_smart-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Smart Factoring</b></h5>
@@ -426,7 +426,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 one">
+      <div class="col-md-4 one" data-aos="zoom-in-up">
         <img src="images/Pi7_convenient-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Convenient</b></h5>
@@ -434,7 +434,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 one">
+      <div class="col-md-4 one" data-aos="zoom-in-left">
         <img src="images/Pi7_referral-removebg-preview.png" alt="" class="simple">
         <div class="text">
           <h5><b>Referral Program</b></h5>
@@ -452,11 +452,11 @@
     <section class="about_section layout_padding-bottom">
       <div class="container">
         <div class="heading_container">
-          <h2 class="inner_text mt-5">
+          <h2 class="inner_text mt-5" data-aos="fade-up">
             About OFS
           </h2>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down-left">
           <div class="img-box">
             <img src="images/about-img.png" alt="">
           </div>
@@ -468,7 +468,7 @@
               eiusmod tempor incididunt ut labore
               et dolore magna aliqua. Ut enim ad minim
             </p>
-            <div class="btn-box">
+            <div class="btn-box" data-aos="flip-down">
               <a href="">
                 Read More
               </a>
@@ -525,7 +525,7 @@
     <section class="auto_section layout_padding">
       <div class="container">
         <div class="heading_container mb-5">
-          <h2 class="inner_text">
+          <h2 class="inner_text" data-aos="fade-up">
             Our Services
           </h2>
         </div>
@@ -551,8 +551,8 @@
 
         <div class="row justify-content-center">
 
-         <div class="col-md-4 " style="height:280px;">
-        <div class="card_services mx-5">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-right">
+        <div class="card_services mx-5"  >
           <div class="card_section" 
           style="
           height:200px;
@@ -576,7 +576,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-up">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -601,7 +601,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-left">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -626,7 +626,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-right">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="
@@ -651,7 +651,7 @@
           </div>
         </div>
         </div>
-         <div class="col-md-4 " style="height:280px;">
+         <div class="col-md-4 " style="height:280px;" data-aos="fade-left">
         <div class="card_services mx-5">
           <div class="card_section" 
           style="

@@ -115,7 +115,25 @@ for (let i = 0; i < navlist.length; i++) {
     </form>
   </div>
 </div>
-<a class='p-0 button button_pop' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
+<button class="button button button_pop">
+<p class="button__text">
+    <span style="--index: 0;">C</span>
+    <span style="--index: 1;">O</span>
+    <span style="--index: 2;">N</span>
+    <span style="--index: 3;">T</span>
+    <span style="--index: 4;">A</span>
+    <span style="--index: 5;">C</span>
+    <span style="--index: 6;">T</span>
+    <span style="--index: 7;"> </span>
+    <span style="--index: 8;">U</span>
+    <span style="--index: 9;">S</span>
+    <span style="--index: 11;"> </span>
+   
+  </p>
+
+<a class='p-0 button__circle' href='#' style="width: 80px;"><img src="images/rupee.png" class="img-fluid" alt="rupee.png"></a>
+
+</button>
 </div>
 
 
@@ -135,5 +153,83 @@ for (let i = 0; i < navlist.length; i++) {
 });
 
     </script>
+
+
+<style>
+  /* From Uiverse.io by Creatlydev */ 
+.button {
+  cursor: pointer;
+  border: none;
+  background: #7808d0;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  place-content: center;
+  transition:
+    background 300ms,
+    transform 200ms;
+  font-weight: 600;
+}
+
+.button__text {
+  position: absolute;
+  inset: 0;
+  animation: text-rotation 8s linear infinite;
+
+  > span {
+    position: absolute;
+    transform: rotate(calc(19deg * var(--index)));
+    inset: 7px;
+  }
+}
+
+.button__circle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  background: #fff;
+  color: #7808d0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__icon--copy {
+  position: absolute;
+  transform: translate(-150%, 150%);
+}
+
+.button:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+.button:hover .button__icon {
+  color: #000;
+}
+
+.button:hover .button__icon:first-child {
+  transition: transform 0.3s ease-in-out;
+  transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon--copy {
+  transition: transform 0.3s ease-in-out 0.1s;
+  transform: translate(0);
+}
+
+@keyframes text-rotation {
+  to {
+    rotate: 360deg;
+  }
+}
+
+</style>
 </body>
 </html>
