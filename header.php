@@ -43,21 +43,21 @@
               
               <ul class="navbar-nav ">
                 <li class="nav-item ">
-                  <a class="nav-link" href="index.php">Home </a>
+                  <a class="nav-link" href="index">Home </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="about.php"> About </a>
+                  <a class="nav-link" href="about"> About </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="how.php"> Services </a>
+                  <a class="nav-link" href="how"> Services </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="sip_calculator.php">
+                  <a class="nav-link" href="sip_calculator">
                     <span>SIP Calculator</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.php"> ContactUs</a>
+                  <a class="nav-link" href="contact"> ContactUs</a>
                 </li>
                 <li class="nav-item back-green" style="border-radius: 0px 0px 0px 35px;">
                   <a class="nav-link" href="#"> Login</a>

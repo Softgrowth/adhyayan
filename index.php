@@ -462,14 +462,10 @@
           </div>
           <div class="detail-box">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do
-              eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim
+            A mutual fund can do for you what you would do for yourself if you had sufficient time, training, and money to diversify, plus the temperament to stand back from your money and make rational decisions. 
             </p>
             <div class="btn-box" data-aos="flip-down">
-              <a href="">
+              <a href="about">
                 Read More
               </a>
             </div>
