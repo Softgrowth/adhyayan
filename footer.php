@@ -26,7 +26,7 @@
     <section class="info_section layout_padding" >
       <div class="container" >
         <div class="row">
-          <div class="col-md-3" data-aos="zoom-in-up">
+          <div class="col-md-3">
             <div class="info_contact">
               <div class="info_logo">
                 <a href="index.html">
@@ -64,7 +64,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3" data-aos="zoom-in-up">
+          <div class="col-md-3" >
             <div class="info_info">
               <h5>
                 Invest Money
@@ -77,7 +77,7 @@
             </div>
           </div>
 
-          <div class="col-md-3" data-aos="zoom-in-up">
+          <div class="col-md-3" >
             <div class="info_links">
               <h5>
                 Useful Links
@@ -121,7 +121,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3" data-aos="zoom-in-up">
+          <div class="col-md-3" >
             <div class="info_form ">
               <h5>
                 Newsletter
