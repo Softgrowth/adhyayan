@@ -71,6 +71,8 @@
     <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
     <li data-target="#ImageCarouselCSS" data-slide-to="1"></li>
     <li data-target="#ImageCarouselCSS" data-slide-to="2"></li>
+    <li data-target="#ImageCarouselCSS" data-slide-to="3"></li>
+    <li data-target="#ImageCarouselCSS" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -80,13 +82,13 @@
       <img src="images/banner-finance.png" class="d-block img img-fluid w-100" alt="finance">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="">
+      <img src="images/PORTFOLIO MS.png" class="d-block  img img-fluid w-100" alt="portfolio">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="">
+      <img src="images/NPS.png" class="d-block img img-fluid w-100" alt="national">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="">
+      <img src="images/ofs.png" class="d-block img img-fluid w-100" alt="">
     </div>
   </div>
 </div>
