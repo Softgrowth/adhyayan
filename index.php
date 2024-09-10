@@ -76,19 +76,19 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/M-fund.png" class="d-block img img-fluid w-100" alt="m_fund">
+      <img src="images/mfund.png" class="d-block img img-fluid w-100" alt="m_fund">
     </div>
     <div class="carousel-item">
-      <img src="images/banner-finance.png" class="d-block img img-fluid w-100" alt="finance">
+      <img src="images/financial.png" class="d-block img img-fluid w-100" alt="finance">
     </div>
     <div class="carousel-item">
-      <img src="images/PORTFOLIO MS.png" class="d-block  img img-fluid w-100" alt="portfolio">
+      <img src="images/PMS.png" class="d-block  img img-fluid w-100" alt="portfolio">
     </div>
     <div class="carousel-item">
       <img src="images/NPS.png" class="d-block img img-fluid w-100" alt="national">
     </div>
     <div class="carousel-item">
-      <img src="images/ofs.png" class="d-block img img-fluid w-100" alt="">
+      <img src="images/OFS.png" class="d-block img img-fluid w-100" alt="">
     </div>
   </div>
 </div>
