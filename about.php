@@ -52,53 +52,80 @@
   <!-- about section -->
 
   <section class="about_section layout_padding">
-    <div class="container">
+    <!-- <div class="container">
       <div class="heading_container " data-aos="fade-down">
         <h2 class="inner_text">
           About Us
         </h2>
        </div>
         <div data-aos="fade-up">
-         <p> <i>A mutual fund can do for you what you would do for yourself if you had sufficient time, training, and money to diversify, plus the temperament to stand back from your money and make rational decisions.</i> </p>
+         <p> <i>"A mutual fund can do for you what you would do for yourself if you had sufficient time, training, and money to diversify, plus the temperament to stand back from your money and make rational decisions."</i> </p>
       </div>
       <div class="box">
         <div class="img-box">
-          <!-- <img src="images/about-img.png" alt=""> -->
            <div class="row">
             <div class="col-md-6 col-sm-12" data-aos="fade-right"><img src="images/about.png" class="self-image img-responsive"></div>
-            
-            <div class="col-md-6 col-sm-12 about-us-col" >
+              <div class="col-md-6 col-sm-12 about-us-col" >
               <h2 class="heading-1">
               Always gives you extra to Health, Wealth, Loans & Mutual Funds</h2>
-
-              <p class="heading-1">Mr. Anup Yadav,Founder of Orbit Financial Services at Self Employed, Started June 2009 as a Financial Services Institution, the team's activities include Wealth Management,Portfolio Management Services, Mutual Funds, Finance & other investments. </p>
-           
-                <h5 class="heading-2">Vision</h5>
-
+              <p class="heading-1">Mr. Anup Yadav,Founder of Orbit Financial Services at Self Employed, Started June 2009 as a Financial Services Institution, the team's activities include Wealth Management,Portfolio Management Services, Mutual Funds, Finance & other investments. </p>                <h5 class="heading-2">Vision</h5>
               <img src="images\checkmarc.png" alt="checkmark" class="checkmark">
-              <p class=heading-3> To become the first choice Mutual Fund advisers for medium-high net worth individuals. </p>
-             
-            </div>
-
-
-
-           </div>
-
+              <p class=heading-3> To become the first choice Mutual Fund advisers for medium-high net worth individuals. </p>            </div>
+          </div>
         </div>
         <div class="detail-box">
-          <!-- <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim
-          </p> -->
           <div class="btn-box">
-            <!-- <a href="">
-              Read More
-            </a> -->
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div class="container">
+    <div class="heading_container " data-aos="fade-down">
+        <h2 class="inner_text">
+          About Us
+        </h2>
+       </div>
+
+  
+    <div data-aos="fade-up">
+      <p><i class="title-para">"A mutual fund can do for you what you would do for yourself if you had sufficient time, training, and money to diversify, plus the temperament to stand back from your money and make rational decisions. "</i></p>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6 col-sm-12" data-aos="fade-right"><img src="images/about.png" class="img-responsive  self-image"></div>
+    <div class="col-lg-6 col-sm-12" data-aos="fade-left">
+    <h3 class="heading-1">Always gives you extra to Health, Wealth, Loans & Mutual Funds</h3>
+    <p class="about-para">Mr. Anup Yadav,Founder of Orbit Financial Services at Self Employed, Started June 2009 as a Financial Services Institution, the team's activities include Wealth Management,Portfolio Management Services, Mutual Funds, Finance & other investments. </p>
+    
+    <img src="images/checkmarc.png" alt="" class="img-checkmark"><h5 class="title-head">Vision</h5>
+    <p class=title-head-para-1> To become the first choice Mutual Fund advisers for medium-high net worth individuals. </p>
+
+    <img src="images/checkmarc.png" alt="" class="img-checkmark"><h5 class="title-head-2">Mission</h5>
+    <p class=title-head-para-1> Adding more to life by providing customized financial services, solutions and security.  </p>
+
+    <img src="images/checkmarc.png" alt="" class="img-checkmark"><h5 class="title-head-3">Core Values</h5>
+    <p class=title-head-para-1> Quality, Integrity, Transparency.  </p>
+
+
+
+      
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   </section>
   <!-- end about section -->
