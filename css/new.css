@@ -136,7 +136,7 @@
 }
 @media only screen and (max-width: 600px) {
   .img-checkmark {
-    width: 10%;
+    width: 8%;
     margin-right: 8cm;
   }
 }
@@ -151,7 +151,7 @@
 {
   position: relative;
   bottom: 24px;
-  right: 30%;
+  right: 27%;
 }
 }
 .title-head-para-1
@@ -171,7 +171,7 @@
 {
   position: relative;
   bottom: 24px;
-  right: 27%;
+  right: 25%;
 }
 }
 .title-head-3
@@ -185,6 +185,6 @@
 {
   position: relative;
   bottom: 24px;
-  right: 21%;
+  right: 20%;
 }
 }
