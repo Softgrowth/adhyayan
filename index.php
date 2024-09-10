@@ -149,8 +149,11 @@
   <section class="how_section layout_padding">
     <div class="heading_container">
       <h2 class="inner_text " data-aos="fade-up" >
-        How It works ?
+      What is a mutual fund?
       </h2>
+    </div>
+    <div class="text-center">
+      <p>Quite simply, a mutual fund is a mediator that brings together a group of people and invests their money in stocks, bonds and other securities.</p>
     </div>
     <div class="how_container">
       <div class="box" data-aos="fade-right">
@@ -161,11 +164,12 @@
         </div>
         <div class="detail-box">
           <h5>
-            Traders and investors
+          Simplicity 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+         
+
+Investing in a mutual fund is considered to be easier as compared to other available instruments in the market.
           </p>
         </div>
       </div>
@@ -175,12 +179,11 @@
         </div>
         <div class="detail-box">
           <h5>
-            Exchanges
+          Economies of scale 
 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+          Mutual funds buy and sell large amounts of securities at a time. This helps reduce transaction costs and bring down the average cost of the unit for investors.
           </p>
         </div>
       </div>
@@ -190,11 +193,11 @@
         </div>
         <div class="detail-box">
           <h5>
-            Miners
+          Liquidity 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+         
+Investors always have the choice to easily liquidate their holdings as and when they want. 
           </p>
         </div>
       </div>
@@ -204,11 +207,10 @@
         </div>
         <div class="detail-box">
           <h5>
-            Payments
+          Professional management 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+          Mutual funds are managed by thorough professionals. Most investors either don?t have the time or the expertise to manage their own portfolio. 
           </p>
         </div>
       </div>
