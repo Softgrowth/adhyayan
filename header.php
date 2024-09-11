@@ -60,7 +60,7 @@
                   <a class="nav-link" href="contact"> ContactUs</a>
                 </li>
                 <li class="nav-item back-green" style="border-radius: 0px 0px 0px 35px;">
-                  <a class="nav-link" href="#"> Login</a>
+                  <a class="nav-link" href="http://my-eoffice.com/client"> Login</a>
                 </li>
               </ul>
               <div class="user_option back-green" style="padding: 27px;">

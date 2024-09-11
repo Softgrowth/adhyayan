@@ -151,6 +151,7 @@
       <h2 class="inner_text " data-aos="fade-up" >
       What is a mutual fund?
       </h2>
+      
     </div>
     <div class="text-center">
       <p>Quite simply, a mutual fund is a mediator that brings together a group of people and invests their money in stocks, bonds and other securities.</p>
