@@ -46,7 +46,16 @@
 
 
 <style>
- 
+ .carousel-item{
+  height:600px;
+  
+ }
+
+ .carousel-item img{
+  height:100%;
+ }
+
+
 </style>
 <body>
   <div class="hero_area">
@@ -66,7 +75,7 @@
     <!-- end header section -->
     <!-- slider section -->
     <section class=" slider_section position-relative">
-    <div id="ImageCarouselCSS" class="carousel slide container-fluid"  data-ride="carousel">
+    <div id="ImageCarouselCSS" class="carousel slide container-fluid px-0 carousel-fade"  data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
     <li data-target="#ImageCarouselCSS" data-slide-to="1"></li>
@@ -74,21 +83,21 @@
     <li data-target="#ImageCarouselCSS" data-slide-to="3"></li>
     <li data-target="#ImageCarouselCSS" data-slide-to="4"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner"  data-aos="fade-right">
     <div class="carousel-item active">
-      <img src="images/Mutual-Funds.png.webp" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
+      <img src="images/mutual_1.png" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
+    </div>
+    <div class="carousel-item" >
+      <img src="images/fs.png" class="d-block img img-fluid w-100" alt="finance">
     </div>
     <div class="carousel-item">
-      <img src="images/financial.png" class="d-block img img-fluid w-100" alt="finance">
-    </div>
-    <div class="carousel-item">
-      <img src="images/PMS.png" class="d-block  img img-fluid w-100" alt="portfolio">
+      <img src="images/PMS_2.png" class="d-block  img img-fluid w-100" alt="portfolio">
     </div>
     <div class="carousel-item">
       <img src="images/NPSonline.jpg" class="d-block img img-fluid w-100 height: 538px;" alt="national">
     </div>
     <div class="carousel-item">
-      <img src="images/OFS.png" class="d-block img img-fluid w-100" alt="">
+      <img src="images/ofs_1.png" class="d-block img img-fluid w-100" alt="">
     </div>
   </div>
 </div>
@@ -149,8 +158,12 @@
   <section class="how_section layout_padding">
     <div class="heading_container">
       <h2 class="inner_text " data-aos="fade-up" >
-        How It works ?
+      What is a mutual fund?
       </h2>
+      
+    </div>
+    <div class="text-center">
+      <p>Quite simply, a mutual fund is a mediator that brings together a group of people and invests their money in stocks, bonds and other securities.</p>
     </div>
     <div class="how_container">
       <div class="box" data-aos="fade-right">
@@ -161,11 +174,12 @@
         </div>
         <div class="detail-box">
           <h5>
-            Traders and investors
+          Simplicity 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+         
+
+Investing in a mutual fund is considered to be easier as compared to other available instruments in the market.
           </p>
         </div>
       </div>
@@ -175,12 +189,11 @@
         </div>
         <div class="detail-box">
           <h5>
-            Exchanges
+          Economies of scale 
 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+          Mutual funds buy and sell large amounts of securities at a time. This helps reduce transaction costs and bring down the average cost of the unit for investors.
           </p>
         </div>
       </div>
@@ -190,11 +203,11 @@
         </div>
         <div class="detail-box">
           <h5>
-            Miners
+          Liquidity 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+         
+Investors always have the choice to easily liquidate their holdings as and when they want. 
           </p>
         </div>
       </div>
@@ -204,11 +217,10 @@
         </div>
         <div class="detail-box">
           <h5>
-            Payments
+          Professional management 
           </h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
+          Mutual funds are managed by thorough professionals. Most investors either don?t have the time or the expertise to manage their own portfolio. 
           </p>
         </div>
       </div>
@@ -222,13 +234,13 @@
   <!-- end how section -->
 
   <!-- BENEFITS SECTION -->
-  <div class="container-fluid">
+  <div class="container-fluid px-0">
     <div class="heading_container">
       <h2 class="inner_text" data-aos="fade-up">
         Benefits
       </h2>
     </div>
-  
+  <div class="container-fluid">
   <div class="row grade">
     <div class="col-md-4 one" data-aos="zoom-in-right">
       <img src="images/Pi7_agile.png" alt="" class="simple">
@@ -307,6 +319,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
     <!-- BENEFITS SECTION -->
 
