@@ -76,7 +76,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/mfund.png" class="d-block img img-fluid w-100" alt="m_fund">
+      <img src="images/Mutual-Funds.png.webp" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
     </div>
     <div class="carousel-item">
       <img src="images/financial.png" class="d-block img img-fluid w-100" alt="finance">
@@ -85,7 +85,7 @@
       <img src="images/PMS.png" class="d-block  img img-fluid w-100" alt="portfolio">
     </div>
     <div class="carousel-item">
-      <img src="images/NPS.png" class="d-block img img-fluid w-100" alt="national">
+      <img src="images/NPSonline.jpg" class="d-block img img-fluid w-100 height: 538px;" alt="national">
     </div>
     <div class="carousel-item">
       <img src="images/OFS.png" class="d-block img img-fluid w-100" alt="">
