@@ -46,7 +46,14 @@
 
 
 <style>
- 
+ .carousel-item{
+  height:600px;
+  
+ }
+
+ .carousel-item img{
+  height:100%;
+ }
 </style>
 <body>
   <div class="hero_area">
@@ -66,7 +73,7 @@
     <!-- end header section -->
     <!-- slider section -->
     <section class=" slider_section position-relative">
-    <div id="ImageCarouselCSS" class="carousel slide container-fluid"  data-ride="carousel">
+    <div id="ImageCarouselCSS" class="carousel slide container-fluid px-0"  data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
     <li data-target="#ImageCarouselCSS" data-slide-to="1"></li>
@@ -76,19 +83,19 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/Mutual-Funds.png.webp" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
+      <img src="images/mutual_1.png" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
     </div>
     <div class="carousel-item">
-      <img src="images/financial.png" class="d-block img img-fluid w-100" alt="finance">
+      <img src="images/fs.png" class="d-block img img-fluid w-100" alt="finance">
     </div>
     <div class="carousel-item">
-      <img src="images/PMS.png" class="d-block  img img-fluid w-100" alt="portfolio">
+      <img src="images/PMS_2.png" class="d-block  img img-fluid w-100" alt="portfolio">
     </div>
     <div class="carousel-item">
       <img src="images/NPSonline.jpg" class="d-block img img-fluid w-100 height: 538px;" alt="national">
     </div>
     <div class="carousel-item">
-      <img src="images/OFS.png" class="d-block img img-fluid w-100" alt="">
+      <img src="images/ofs_1.png" class="d-block img img-fluid w-100" alt="">
     </div>
   </div>
 </div>
@@ -225,13 +232,13 @@ Investors always have the choice to easily liquidate their holdings as and when 
   <!-- end how section -->
 
   <!-- BENEFITS SECTION -->
-  <div class="container-fluid">
+  <div class="container-fluid px-0">
     <div class="heading_container">
       <h2 class="inner_text" data-aos="fade-up">
         Benefits
       </h2>
     </div>
-  
+  <div class="container-fluid">
   <div class="row grade">
     <div class="col-md-4 one" data-aos="zoom-in-right">
       <img src="images/Pi7_agile.png" alt="" class="simple">
@@ -310,6 +317,7 @@ Investors always have the choice to easily liquidate their holdings as and when 
         </div>
       </div>
     </div>
+  </div>
   </div>
     <!-- BENEFITS SECTION -->
 
