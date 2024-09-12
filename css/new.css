@@ -131,27 +131,27 @@
 .img-checkmark
 {
   
-    width: 5%;
+    width: 10%;
     margin-right: 14cm;
 }
 @media only screen and (max-width: 600px) {
   .img-checkmark {
-    width: 8%;
+    width: 14%;
     margin-right: 8cm;
   }
 }
 .title-head
 {
   position: relative;
-  bottom: 24px;
-  right: 39%;
+  bottom: 42px;
+  right: 36%;
 }
 @media only screen and (max-width: 600px) {
   .title-head
 {
   position: relative;
-  bottom: 24px;
-  right: 27%;
+  bottom: 42px;
+  right: 26%;
 }
 }
 .title-head-para-1
@@ -163,28 +163,28 @@
 .title-head-2
 {
   position: relative;
-  bottom: 24px;
-  right: 38%;
+  bottom: 42px;
+  right: 34%;
 }
 @media only screen and (max-width: 600px) {
   .title-head-2
 {
   position: relative;
-  bottom: 24px;
-  right: 25%;
+  bottom: 42px;
+  right: 24%;
 }
 }
 .title-head-3
 {
   position: relative;
-  bottom: 24px;
-  right: 35%;
+  bottom: 42px;
+  right: 31%;
 }
 @media only screen and (max-width: 600px) {
   .title-head-3
 {
   position: relative;
-  bottom: 24px;
-  right: 20%;
+  bottom: 42px;
+  right: 19%;
 }
 }
