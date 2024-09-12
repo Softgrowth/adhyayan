@@ -66,8 +66,8 @@
     </div>
 
     <div class="row">
-    <div class="col-lg-6 col-sm-12" data-aos="fade-right"><img src="images/about.png" class="img-responsive  self-image"></div>
-    <div class="col-lg-6 col-sm-12" data-aos="fade-left">
+    <div class="col-lg-6 col-sm-12" data-aos="fade-right"  data-aos-delay="500"  data-aos-duration="7000"><img src="images/about.png" class="img-responsive  self-image"></div>
+    <div class="col-lg-6 col-sm-12" data-aos="fade-left"  data-aos-delay="500"  data-aos-duration="7000">
     <h3 class="heading-1">Always gives you extra to Health, Wealth, Loans & Mutual Funds</h3>
     <p class="about-para">Mr. Anup Yadav,Founder of Orbit Financial Services at Self Employed, Started June 2009 as a Financial Services Institution, the team's activities include Wealth Management,Portfolio Management Services, Mutual Funds, Finance & other investments. </p>
     
