@@ -84,17 +84,17 @@
     <li data-target="#ImageCarouselCSS" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner"  data-aos="fade-right">
-    <div class="carousel-item active">
-      <img src="images/mutual_1.png" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
-    </div>
-    <div class="carousel-item" >
-      <img src="images/fs.png" class="d-block img img-fluid w-100" alt="finance">
-    </div>
-    <div class="carousel-item">
+  <div class="carousel-item active">
       <img src="images/PMS_2.png" class="d-block  img img-fluid w-100" alt="portfolio">
     </div>
     <div class="carousel-item">
       <img src="images/NPSonline.jpg" class="d-block img img-fluid w-100 height: 538px;" alt="national">
+    </div>
+    <div class="carousel-item ">
+      <img src="images/mutual_1.png" class="d-block img img-fluid w-100 height: 538px;" alt="m_fund">
+    </div>
+    <div class="carousel-item" >
+      <img src="images/fs.png" class="d-block img img-fluid w-100" alt="finance">
     </div>
     <div class="carousel-item">
       <img src="images/ofs_1.png" class="d-block img img-fluid w-100" alt="">
