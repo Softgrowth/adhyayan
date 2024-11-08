@@ -1,37 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OFS</title>
- 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <div class="container-fluid p-0 m-0">
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-
-</head>
-<body>
-    <div class="container-fluid p-0 m-0">
-
-    <section class="info_section layout_padding" >
-      <div class="container" >
+    <section class="info_section layout_padding">
+      <div class="container">
         <div class="row">
           <div class="col-md-3">
             <div class="info_contact">
               <div class="info_logo">
                 <a href="index.html">
                   <span>
-                  OrBiT
+                    OrBiT
                   </span>
                 </a>
               </div>
@@ -64,7 +42,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3" >
+          <div class="col-md-3">
             <div class="info_info">
               <h5>
                 Invest Money
@@ -77,7 +55,7 @@
             </div>
           </div>
 
-          <div class="col-md-3" >
+          <div class="col-md-3">
             <div class="info_links">
               <h5>
                 Useful Links
@@ -121,7 +99,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3" >
+          <div class="col-md-3">
             <div class="info_form ">
               <h5>
                 Newsletter
@@ -148,14 +126,9 @@
       </p>
     </section>
     <!-- footer section -->
-    </div>
+  </div>
 
 
 
 
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-    </script>
-</body>
-</html>
+

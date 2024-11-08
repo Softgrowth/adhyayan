@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-  <title>OFS</title>
 
-<!-- slider stylesheet -->
-<link rel="stylesheet" type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-<!-- bootstrap core css -->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-<!-- fonts style -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
-<!-- Custom styles for this template -->
-<link href="css/style.css" rel="stylesheet" />
-<!-- responsive style -->
-<link href="css/responsive.css" rel="stylesheet" />
-</head>
-<body>
     <!-- header section strats -->
 
     <div class="container-fluid m-0 p-0">
@@ -76,6 +54,7 @@
     </header>
     </div>
 <script>
+
   "use strict";
 
 let navlist = document.querySelectorAll('.nav-item');
@@ -95,27 +74,30 @@ for (let i = 0; i < navlist.length; i++) {
 <!-- new form -->
 
 <div class="container">
+  <div class="close">
 <div class='wrap'>
   <div class='content'>
    
-    <form action="/action_page.php" class="form-container ">
+    <form  class="form-container " action="https://api.web3forms.com/submit" method="POST">
       <h1>Contact Us</h1>
-
+      <input type="hidden" name="access_key" value="b865bc48-b84d-4167-a332-39e83aa5cb48">
+      <input type="hidden" name="from_name" value="Mission Control">
       <label for="Name"><b>Name</b></label>
-      <input type="text" placeholder="Name" name="name" required>
+      <input id="name" type="text" placeholder="Name" name="name" required>
 
       <label for="Name"><b>Email</b></label>
-      <input type="text" placeholder="E-mail" name="name" required>
+      <input type="text" placeholder="E-mail" name="email" id="email" required>
 
       <label for="Name"><b>Subject</b></label>
-      <input type="text" placeholder="Message" name="name" required>
+      <input for="phone" type="text" placeholder="Message" name="name" required>
 
       <button type="submit" class="btn sub">Submit</button>
       <!-- <button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
     </form>
   </div>
 </div>
-<button class="button button button_pop">
+</div>
+<button class="button button button_pop" id="button_pop">
 <p class="button__text m-0">
     <span style="--index: 0;">C</span>
     <span style="--index: 1;">O</span>
@@ -137,24 +119,39 @@ for (let i = 0; i < navlist.length; i++) {
 </div>
 
 
-
-    
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-    </script>
-
-
 <script>
-      $('.button_pop').on('click', function(){
-  $('.wrap, .button_pop').toggleClass('active');
+
   
-  return true;
+  
+      $('.button_pop').on('click', function(){
+
+  if($('.wrap, .button_pop').toggleClass('active'))
+  $(this).removeClass('active');
+
+else($(event.target).is('.wrap') || $(event.target).is('#button_pop')) {
+      event.preventDefault();
+      $(this).removeClass('active');
+    }
+
+  // return true;
 });
 
+
+
+
+
+
+
     </script>
 
-
-
-</body>
-</html>
+<style>
+  .close{
+    position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  /* width: 100%; */
+  background-color: tranparent;
+  opacity: 0;
+  }
+  </style>

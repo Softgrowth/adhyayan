@@ -1,7 +1,85 @@
 
+
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if(
+      !empty($_POST['name'])
+      && !empty($_POST['email'])
+      && !empty($_POST['phone'])
+      && !empty($_POST['message'])
+  ){
+      $name = $_POST["name"];
+      $email = $_POST["email"];
+      $phone = $_POST["phone"];
+      $message = $_POST["message"];
+
+
+      $to = "aniketparkhi2004@gmail.com";
+      $subject = "New Contact Form Submission";
+      $body = "Name: {$name}\nEmail: {$email}\nPhone: {$phone}\nMessage: {$message}";
+      $headers = "From: {$email}";
+
+      ini_set("SMTP","smtp.gmail.com");
+      ini_set("smtp_port",2525);
+      ini_set("sendmail_from","me@example.com");
+      ini_set("sendmail_path", "");
+   
+
+      if (mail($to, $subject, $body, $headers)) {
+          echo "Message sent successfully!";
+      } else {
+          echo "Failed to send message.";
+      }
+  }
+}
+?>
+
+<?php
+// Get data from form  
+// if(isset($_POST['submit']))
+// {
+ 
+
+// $name = $_POST['name'];
+// $email= $_POST['email'];
+// $phone= $_POST['phone'];
+// $message= $_POST['message'];
+
+// 
+// ini_set("SMTP","aniketparkhi2004@gmail.com");
+// Please specify an SMTP Number 25 and 8889 are valid SMTP Ports.
+
+// ini_set("smtp_port","25");
+
+// Please specify the return address to use
+
+// ini_set('sendmail_from', $email);
+
+// 
+// $to = "aniketparkhi2004@gmail.com";
+// $subject = "This is the subject line";
+
+// The following text will be sent
+// Name = user entered name
+// Email = user entered email
+// Message = user entered message 
+// $txt ="Name = ". $name . "\r\n  Email = " 
+//     . $email .   "\r\n Phone =" . $phone . "\r\n Message =" . $message;
+
+// $headers = "From: softgrowth@demosite.com" . "\r\n" .
+//             "CC: somebodyelse@example.com";
+// if($email != NULL) {
+//     mail($to, $subject, $txt, $headers);
+// }
+// }
+// Redirect to
+// header("Location:contact.php");
+?>
+
 <!DOCTYPE html>
 
-<html>
+<html lang="en" lang="mr">
 
 <head>
   <!-- Basic -->
@@ -59,13 +137,13 @@
       </h2>
     </div>
     <div class="how_container">
-    <form action="#" method="post">
+    <form id="form" action="contact.php" method="post">
   
   <p>Please take a moment to get in touch, we will get back to you shortly.</p>
 
   <div class="column">
     <label for="the-name">Your Name</label>
-    <input type="text" name="name" id="the-name">
+    <input type="text" name="name" id="the-name" style="height:200px;width:200px; font-family:Mangal;">
 
     <label for="the-email">Email Address</label>
     <input type="email" name="email" id="the-email">
@@ -87,7 +165,7 @@
     <label>
     <input type="checkbox" name="newsletter" value="yes"> Join our mailing list?
     </label>
-    <input type="submit" class="bg-dark" value="Send Message">
+    <input type="submit" name="submit" class="bg-dark" value="Send Message">
   </div>
 </form>
     </div>
